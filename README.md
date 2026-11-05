@@ -18,6 +18,7 @@ Every problem folder contains:
 | arrays | [Group Anagrams](arrays/group-anagrams/) | O(n · k) | O(n · k) | ✅ |
 | arrays | [Top K Frequent Elements](arrays/top-k-frequent-elements/) | O(n) | O(n) | ✅ |
 | arrays | [Encode and Decode Strings](arrays/encode-and-decode-strings/) | O(N) | O(N) | ✅ |
+| arrays | [Product of Array Except Self](arrays/product-of-array-except-self/) | O(n) | O(1) | ✅ |
 
 ## Structure
 
@@ -40,3 +41,4 @@ dsa-marathon/
 | Group Anagrams | Frequency tuple key | O(n · k) | O(n · k) |
 | Top K Frequent Elements | Bucket sort | O(n) | O(n) |
 | Encode and Decode Strings | Length-prefixed chunks | O(N) | O(N) |
+| Product of Array Except Self | Running prefix + suffix | O(n) | O(1) |
