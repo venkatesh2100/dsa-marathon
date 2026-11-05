@@ -22,6 +22,7 @@ Every problem folder contains:
 | arrays | [Valid Sudoku](arrays/valid-sudoku/) | O(1) | O(1) | ✅ |
 | arrays | [Longest Consecutive Sequence](arrays/longest-consecutive-sequence/) | O(n) | O(n) | ✅ |
 | two-pointers | [Valid Palindrome](two-pointers/valid-palindrome/) | O(n) | O(1) | ✅ |
+| two-pointers | [Two Sum II](two-pointers/two-sum-ii/) | O(n) | O(1) | ✅ |
 
 ## Structure
 
@@ -53,3 +54,4 @@ dsa-marathon/
 | Valid Sudoku | Bitmask | O(1) | O(1) |
 | Longest Consecutive Sequence | Hash set from run boundaries | O(n) | O(n) |
 | Valid Palindrome | Two pointers, skip non-alphanumeric | O(n) | O(1) |
+| Two Sum II | Two pointers on sorted input | O(n) | O(1) |
