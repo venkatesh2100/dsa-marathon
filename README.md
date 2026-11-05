@@ -15,6 +15,7 @@ Every problem folder contains:
 | arrays | [Contains Duplicate](arrays/contains-duplicate/) | O(n) | O(n) | ✅ |
 | arrays | [Is Anagram](arrays/is-anagram/) | O(n) | O(1) | ✅ |
 | arrays | [Two Sum](arrays/two-sum/) | O(n) | O(n) | ✅ |
+| arrays | [Group Anagrams](arrays/group-anagrams/) | O(n · k) | O(n · k) | ✅ |
 
 ## Structure
 
@@ -34,3 +35,4 @@ dsa-marathon/
 | Contains Duplicate | Hash set | O(n) | O(n) |
 | Is Anagram | Frequency array | O(n) | O(1) |
 | Two Sum | One-pass hash map | O(n) | O(n) |
+| Group Anagrams | Frequency tuple key | O(n · k) | O(n · k) |
