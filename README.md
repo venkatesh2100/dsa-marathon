@@ -23,6 +23,7 @@ Every problem folder contains:
 | arrays | [Longest Consecutive Sequence](arrays/longest-consecutive-sequence/) | O(n) | O(n) | ✅ |
 | two-pointers | [Valid Palindrome](two-pointers/valid-palindrome/) | O(n) | O(1) | ✅ |
 | two-pointers | [Two Sum II](two-pointers/two-sum-ii/) | O(n) | O(1) | ✅ |
+| two-pointers | [3Sum](two-pointers/three-sum/) | O(n²) | O(1) | ✅ |
 
 ## Structure
 
@@ -55,3 +56,4 @@ dsa-marathon/
 | Longest Consecutive Sequence | Hash set from run boundaries | O(n) | O(n) |
 | Valid Palindrome | Two pointers, skip non-alphanumeric | O(n) | O(1) |
 | Two Sum II | Two pointers on sorted input | O(n) | O(1) |
+| 3Sum | Sort + two pointers | O(n²) | O(1) |
