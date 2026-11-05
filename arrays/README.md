@@ -9,3 +9,4 @@
 | [Top K Frequent Elements](top-k-frequent-elements/) | Bucket sort | O(n) | O(n) | Frequencies bounded by `n` |
 | [Encode and Decode Strings](encode-and-decode-strings/) | Length-prefixed chunks | O(N) | O(N) | `N` = total characters |
 | [Product of Array Except Self](product-of-array-except-self/) | Running prefix + suffix | O(n) | O(1) | No division; output not counted |
+| [Valid Sudoku](valid-sudoku/) | Bitmask | O(1) | O(1) | Fixed 9×9 board; one pass |
