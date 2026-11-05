@@ -17,6 +17,7 @@ Every problem folder contains:
 | arrays | [Two Sum](arrays/two-sum/) | O(n) | O(n) | ✅ |
 | arrays | [Group Anagrams](arrays/group-anagrams/) | O(n · k) | O(n · k) | ✅ |
 | arrays | [Top K Frequent Elements](arrays/top-k-frequent-elements/) | O(n) | O(n) | ✅ |
+| arrays | [Encode and Decode Strings](arrays/encode-and-decode-strings/) | O(N) | O(N) | ✅ |
 
 ## Structure
 
@@ -38,3 +39,4 @@ dsa-marathon/
 | Two Sum | One-pass hash map | O(n) | O(n) |
 | Group Anagrams | Frequency tuple key | O(n · k) | O(n · k) |
 | Top K Frequent Elements | Bucket sort | O(n) | O(n) |
+| Encode and Decode Strings | Length-prefixed chunks | O(N) | O(N) |
