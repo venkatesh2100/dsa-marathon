@@ -13,6 +13,7 @@ Every problem folder contains:
 | Topic | Problem | Time | Space | Status |
 |---|---|---|---|---|
 | arrays | [Contains Duplicate](arrays/contains-duplicate/) | O(n) | O(n) | ✅ |
+| arrays | [Is Anagram](arrays/is-anagram/) | O(n) | O(1) | ✅ |
 
 ## Structure
 
@@ -30,3 +31,4 @@ dsa-marathon/
 | Problem | Best Approach | Time | Space |
 |---|---|---|---|
 | Contains Duplicate | Hash set | O(n) | O(n) |
+| Is Anagram | Frequency array | O(n) | O(1) |
