@@ -21,13 +21,19 @@ Every problem folder contains:
 | arrays | [Product of Array Except Self](arrays/product-of-array-except-self/) | O(n) | O(1) | ✅ |
 | arrays | [Valid Sudoku](arrays/valid-sudoku/) | O(1) | O(1) | ✅ |
 | arrays | [Longest Consecutive Sequence](arrays/longest-consecutive-sequence/) | O(n) | O(n) | ✅ |
+| two-pointers | [Valid Palindrome](two-pointers/valid-palindrome/) | O(n) | O(1) | ✅ |
 
 ## Structure
 
 ```
 dsa-marathon/
-└── arrays/
-    └── contains-duplicate/
+├── arrays/
+│   └── contains-duplicate/
+│       ├── my_solution.py
+│       ├── optimal_solution.py
+│       └── notes.md
+└── two-pointers/
+    └── valid-palindrome/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -46,3 +52,4 @@ dsa-marathon/
 | Product of Array Except Self | Running prefix + suffix | O(n) | O(1) |
 | Valid Sudoku | Bitmask | O(1) | O(1) |
 | Longest Consecutive Sequence | Hash set from run boundaries | O(n) | O(n) |
+| Valid Palindrome | Two pointers, skip non-alphanumeric | O(n) | O(1) |
