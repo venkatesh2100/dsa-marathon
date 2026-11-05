@@ -20,6 +20,7 @@ Every problem folder contains:
 | arrays | [Encode and Decode Strings](arrays/encode-and-decode-strings/) | O(N) | O(N) | ✅ |
 | arrays | [Product of Array Except Self](arrays/product-of-array-except-self/) | O(n) | O(1) | ✅ |
 | arrays | [Valid Sudoku](arrays/valid-sudoku/) | O(1) | O(1) | ✅ |
+| arrays | [Longest Consecutive Sequence](arrays/longest-consecutive-sequence/) | O(n) | O(n) | ✅ |
 
 ## Structure
 
@@ -44,3 +45,4 @@ dsa-marathon/
 | Encode and Decode Strings | Length-prefixed chunks | O(N) | O(N) |
 | Product of Array Except Self | Running prefix + suffix | O(n) | O(1) |
 | Valid Sudoku | Bitmask | O(1) | O(1) |
+| Longest Consecutive Sequence | Hash set from run boundaries | O(n) | O(n) |
