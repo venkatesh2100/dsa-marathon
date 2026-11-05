@@ -1,6 +1,8 @@
 # DSA Marathon 🏃 — Interview Prep
 
-Daily problem-solving log for coding interviews. Every problem folder contains:
+Daily problem-solving log for coding interviews. See [PUSHGUIDE.md](PUSHGUIDE.md) for the workflow and a paste-ready prompt.
+
+Every problem folder contains:
 
 - `my_solution.py` — my first working attempt
 - `optimal_solution.py` — the optimal approach
