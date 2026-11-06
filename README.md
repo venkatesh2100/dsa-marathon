@@ -27,8 +27,9 @@ Every problem folder contains:
 | two-pointers | [Container With Most Water](two-pointers/container-with-most-water/) | O(n) | O(1) | ✅ |
 | two-pointers | [Trapping Rain Water](two-pointers/trapping-rain-water/) | O(n) | O(1) | ✅ |
 | stack | [Valid Parentheses](stack/valid-parentheses/) | O(n) | O(n) | ✅ |
+| stack | [Min Stack](stack/min-stack/) | O(1) | O(n) | ✅ |
 | stack | [Evaluate Reverse Polish Notation](stack/evaluate-reverse-polish-notation/) | O(n) | O(n) | ✅ |
-| stack | [Evaluate Reverse Polish Notation](stack/evaluate-reverse-polish-notation/) | O(n) | O(n) | ✅ |
+| stack | [Daily Temperatures](stack/daily-temperatures/) | O(n) | O(n) | ✅ |
 
 ## Structure
 
@@ -45,7 +46,19 @@ dsa-marathon/
 │       ├── optimal_solution.py
 │       └── notes.md
 └── stack/
-    └── valid-parentheses/
+    ├── valid-parentheses/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    ├── min-stack/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    ├── evaluate-reverse-polish-notation/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── daily-temperatures/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -70,4 +83,6 @@ dsa-marathon/
 | Container With Most Water | Two pointers, move shorter wall | O(n) | O(1) |
 | Trapping Rain Water | Two pointers, move smaller wall | O(n) | O(1) |
 | Valid Parentheses | Stack with pairs map | O(n) | O(n) |
+| Min Stack | Auxiliary min stack | O(1) | O(n) |
 | Evaluate Reverse Polish Notation | Stack with operator table | O(n) | O(n) |
+| Daily Temperatures | Monotonic stack | O(n) | O(n) |
