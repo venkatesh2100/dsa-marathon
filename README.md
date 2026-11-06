@@ -25,6 +25,7 @@ Every problem folder contains:
 | two-pointers | [Two Sum II](two-pointers/two-sum-ii/) | O(n) | O(1) | ✅ |
 | two-pointers | [3Sum](two-pointers/three-sum/) | O(n²) | O(1) | ✅ |
 | two-pointers | [Container With Most Water](two-pointers/container-with-most-water/) | O(n) | O(1) | ✅ |
+| two-pointers | [Trapping Rain Water](two-pointers/trapping-rain-water/) | O(n) | O(1) | ✅ |
 
 ## Structure
 
@@ -59,3 +60,4 @@ dsa-marathon/
 | Two Sum II | Two pointers on sorted input | O(n) | O(1) |
 | 3Sum | Sort + two pointers | O(n²) | O(1) |
 | Container With Most Water | Two pointers, move shorter wall | O(n) | O(1) |
+| Trapping Rain Water | Two pointers, move smaller wall | O(n) | O(1) |
