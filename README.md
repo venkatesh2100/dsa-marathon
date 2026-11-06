@@ -31,6 +31,7 @@ Every problem folder contains:
 | stack | [Evaluate Reverse Polish Notation](stack/evaluate-reverse-polish-notation/) | O(n) | O(n) | ✅ |
 | stack | [Daily Temperatures](stack/daily-temperatures/) | O(n) | O(n) | ✅ |
 | stack | [Car Fleet](stack/car-fleet/) | O(n log n) | O(n) | ✅ |
+| stack | [Largest Rectangle in Histogram](stack/largest-rectangle-in-histogram/) | O(n) | O(n) | ✅ |
 
 ## Structure
 
@@ -63,7 +64,11 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
-    └── car-fleet/
+    ├── car-fleet/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── largest-rectangle-in-histogram/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -92,3 +97,4 @@ dsa-marathon/
 | Evaluate Reverse Polish Notation | Stack with operator table | O(n) | O(n) |
 | Daily Temperatures | Monotonic stack | O(n) | O(n) |
 | Car Fleet | Monotonic stack of arrival times | O(n log n) | O(n) |
+| Largest Rectangle in Histogram | Monotonic stack of indices | O(n) | O(n) |

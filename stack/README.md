@@ -7,3 +7,4 @@
 | [Evaluate Reverse Polish Notation](evaluate-reverse-polish-notation/) | Stack with operator table | O(n) | O(n) | One-pass evaluation, operator dict |
 | [Daily Temperatures](daily-temperatures/) | Monotonic stack | O(n) | O(n) | Pop on next warmer; unresolved keep 0 |
 | [Car Fleet](car-fleet/) | Monotonic stack of arrival times | O(n log n) | O(n) | Sort by position desc; merge when time ≤ fleet ahead |
+| [Largest Rectangle in Histogram](largest-rectangle-in-histogram/) | Monotonic stack of indices | O(n) | O(n) | Sentinel 0 flushes the stack; width = k − stack[-1] − 1 |
