@@ -30,6 +30,7 @@ Every problem folder contains:
 | stack | [Min Stack](stack/min-stack/) | O(1) | O(n) | ✅ |
 | stack | [Evaluate Reverse Polish Notation](stack/evaluate-reverse-polish-notation/) | O(n) | O(n) | ✅ |
 | stack | [Daily Temperatures](stack/daily-temperatures/) | O(n) | O(n) | ✅ |
+| stack | [Car Fleet](stack/car-fleet/) | O(n log n) | O(n) | ✅ |
 
 ## Structure
 
@@ -58,7 +59,11 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
-    └── daily-temperatures/
+    ├── daily-temperatures/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── car-fleet/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -86,3 +91,4 @@ dsa-marathon/
 | Min Stack | Auxiliary min stack | O(1) | O(n) |
 | Evaluate Reverse Polish Notation | Stack with operator table | O(n) | O(n) |
 | Daily Temperatures | Monotonic stack | O(n) | O(n) |
+| Car Fleet | Monotonic stack of arrival times | O(n log n) | O(n) |
