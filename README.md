@@ -24,6 +24,7 @@ Every problem folder contains:
 | two-pointers | [Valid Palindrome](two-pointers/valid-palindrome/) | O(n) | O(1) | ✅ |
 | two-pointers | [Two Sum II](two-pointers/two-sum-ii/) | O(n) | O(1) | ✅ |
 | two-pointers | [3Sum](two-pointers/three-sum/) | O(n²) | O(1) | ✅ |
+| two-pointers | [Container With Most Water](two-pointers/container-with-most-water/) | O(n) | O(1) | ✅ |
 
 ## Structure
 
@@ -57,3 +58,4 @@ dsa-marathon/
 | Valid Palindrome | Two pointers, skip non-alphanumeric | O(n) | O(1) |
 | Two Sum II | Two pointers on sorted input | O(n) | O(1) |
 | 3Sum | Sort + two pointers | O(n²) | O(1) |
+| Container With Most Water | Two pointers, move shorter wall | O(n) | O(1) |
