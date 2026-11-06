@@ -26,6 +26,7 @@ Every problem folder contains:
 | two-pointers | [3Sum](two-pointers/three-sum/) | O(n²) | O(1) | ✅ |
 | two-pointers | [Container With Most Water](two-pointers/container-with-most-water/) | O(n) | O(1) | ✅ |
 | two-pointers | [Trapping Rain Water](two-pointers/trapping-rain-water/) | O(n) | O(1) | ✅ |
+| stack | [Valid Parentheses](stack/valid-parentheses/) | O(n) | O(n) | ✅ |
 
 ## Structure
 
@@ -36,8 +37,13 @@ dsa-marathon/
 │       ├── my_solution.py
 │       ├── optimal_solution.py
 │       └── notes.md
-└── two-pointers/
-    └── valid-palindrome/
+├── two-pointers/
+│   └── valid-palindrome/
+│       ├── my_solution.py
+│       ├── optimal_solution.py
+│       └── notes.md
+└── stack/
+    └── valid-parentheses/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -61,3 +67,4 @@ dsa-marathon/
 | 3Sum | Sort + two pointers | O(n²) | O(1) |
 | Container With Most Water | Two pointers, move shorter wall | O(n) | O(1) |
 | Trapping Rain Water | Two pointers, move smaller wall | O(n) | O(1) |
+| Valid Parentheses | Stack with pairs map | O(n) | O(n) |
