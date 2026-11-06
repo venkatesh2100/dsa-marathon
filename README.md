@@ -27,6 +27,7 @@ Every problem folder contains:
 | two-pointers | [Container With Most Water](two-pointers/container-with-most-water/) | O(n) | O(1) | ✅ |
 | two-pointers | [Trapping Rain Water](two-pointers/trapping-rain-water/) | O(n) | O(1) | ✅ |
 | stack | [Valid Parentheses](stack/valid-parentheses/) | O(n) | O(n) | ✅ |
+| stack | [Min Stack](stack/min-stack/) | O(1) | O(n) | ✅ |
 
 ## Structure
 
@@ -68,3 +69,4 @@ dsa-marathon/
 | Container With Most Water | Two pointers, move shorter wall | O(n) | O(1) |
 | Trapping Rain Water | Two pointers, move smaller wall | O(n) | O(1) |
 | Valid Parentheses | Stack with pairs map | O(n) | O(n) |
+| Min Stack | Auxiliary min stack | O(1) | O(n) |
