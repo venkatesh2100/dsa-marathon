@@ -36,6 +36,7 @@ Every problem folder contains:
 | binary-search | [Search a 2D Matrix](binary-search/search-a-2d-matrix/) | O(log(m·n)) | O(1) | ✅ |
 | binary-search | [Koko Eating Bananas](binary-search/koko-eating-bananas/) | O(n · log m) | O(1) | ✅ |
 | binary-search | [Find Minimum in Rotated Sorted Array](binary-search/find-minimum-in-rotated-sorted-array/) | O(log n) | O(1) | ✅ |
+| binary-search | [Search in Rotated Sorted Array](binary-search/search-in-rotated-sorted-array/) | O(log n) | O(1) | ✅ |
 
 ## Structure
 
@@ -89,7 +90,11 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
-    └── find-minimum-in-rotated-sorted-array/
+    ├── find-minimum-in-rotated-sorted-array/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── search-in-rotated-sorted-array/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -123,3 +128,4 @@ dsa-marathon/
 | Search a 2D Matrix | Flatten to 1D, `divmod` map | O(log(m·n)) | O(1) |
 | Koko Eating Bananas | Binary search on the answer | O(n · log m) | O(1) |
 | Find Minimum in Rotated Sorted Array | Binary search: compare mid vs right end | O(log n) | O(1) |
+| Search in Rotated Sorted Array | One-pass sorted-half range check | O(log n) | O(1) |
