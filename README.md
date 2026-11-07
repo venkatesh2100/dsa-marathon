@@ -38,6 +38,7 @@ Every problem folder contains:
 | binary-search | [Find Minimum in Rotated Sorted Array](binary-search/find-minimum-in-rotated-sorted-array/) | O(log n) | O(1) | ✅ |
 | binary-search | [Search in Rotated Sorted Array](binary-search/search-in-rotated-sorted-array/) | O(log n) | O(1) | ✅ |
 | binary-search | [Median of Two Sorted Arrays](binary-search/median-of-two-sorted-arrays/) | O(log min(m, n)) | O(1) | ✅ |
+| sliding-window | [Best Time to Buy and Sell Stock](sliding-window/best-time-to-buy-and-sell-stock/) | O(n) | O(1) | ✅ |
 
 ## Structure
 
@@ -99,7 +100,12 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
-    └── median-of-two-sorted-arrays/
+    ├── median-of-two-sorted-arrays/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+└── sliding-window/
+    └── best-time-to-buy-and-sell-stock/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -135,3 +141,4 @@ dsa-marathon/
 | Find Minimum in Rotated Sorted Array | Binary search: compare mid vs right end | O(log n) | O(1) |
 | Search in Rotated Sorted Array | One-pass sorted-half range check | O(log n) | O(1) |
 | Median of Two Sorted Arrays | Partition-cut binary search on smaller array | O(log min(m, n)) | O(1) |
+| Best Time to Buy and Sell Stock | One-pass running min | O(n) | O(1) |
