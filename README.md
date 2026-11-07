@@ -33,6 +33,7 @@ Every problem folder contains:
 | stack | [Car Fleet](stack/car-fleet/) | O(n log n) | O(n) | ✅ |
 | stack | [Largest Rectangle in Histogram](stack/largest-rectangle-in-histogram/) | O(n) | O(n) | ✅ |
 | binary-search | [Binary Search](binary-search/binary-search/) | O(log n) | O(1) | ✅ |
+| binary-search | [Search a 2D Matrix](binary-search/search-a-2d-matrix/) | O(log(m·n)) | O(1) | ✅ |
 
 ## Structure
 
@@ -74,7 +75,11 @@ dsa-marathon/
         ├── optimal_solution.py
         └── notes.md
 └── binary-search/
-    └── binary-search/
+    ├── binary-search/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── search-a-2d-matrix/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -105,3 +110,4 @@ dsa-marathon/
 | Car Fleet | Monotonic stack of arrival times | O(n log n) | O(n) |
 | Largest Rectangle in Histogram | Monotonic stack of indices | O(n) | O(n) |
 | Binary Search | Halve window with `mid ± 1` | O(log n) | O(1) |
+| Search a 2D Matrix | Flatten to 1D, `divmod` map | O(log(m·n)) | O(1) |
