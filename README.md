@@ -39,6 +39,7 @@ Every problem folder contains:
 | binary-search | [Search in Rotated Sorted Array](binary-search/search-in-rotated-sorted-array/) | O(log n) | O(1) | ✅ |
 | binary-search | [Median of Two Sorted Arrays](binary-search/median-of-two-sorted-arrays/) | O(log min(m, n)) | O(1) | ✅ |
 | sliding-window | [Best Time to Buy and Sell Stock](sliding-window/best-time-to-buy-and-sell-stock/) | O(n) | O(1) | ✅ |
+| sliding-window | [Longest Substring Without Repeating Characters](sliding-window/longest-substring-without-repeating-characters/) | O(n) | O(min(n, Σ)) | ✅ |
 
 ## Structure
 
@@ -105,7 +106,11 @@ dsa-marathon/
     │   ├── optimal_solution.py
     │   └── notes.md
 └── sliding-window/
-    └── best-time-to-buy-and-sell-stock/
+    ├── best-time-to-buy-and-sell-stock/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── longest-substring-without-repeating-characters/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -142,3 +147,4 @@ dsa-marathon/
 | Search in Rotated Sorted Array | One-pass sorted-half range check | O(log n) | O(1) |
 | Median of Two Sorted Arrays | Partition-cut binary search on smaller array | O(log min(m, n)) | O(1) |
 | Best Time to Buy and Sell Stock | One-pass running min | O(n) | O(1) |
+| Longest Substring Without Repeating Characters | Shrink-on-duplicate window | O(n) | O(min(n, Σ)) |
