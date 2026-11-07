@@ -32,6 +32,7 @@ Every problem folder contains:
 | stack | [Daily Temperatures](stack/daily-temperatures/) | O(n) | O(n) | ✅ |
 | stack | [Car Fleet](stack/car-fleet/) | O(n log n) | O(n) | ✅ |
 | stack | [Largest Rectangle in Histogram](stack/largest-rectangle-in-histogram/) | O(n) | O(n) | ✅ |
+| binary-search | [Binary Search](binary-search/binary-search/) | O(log n) | O(1) | ✅ |
 
 ## Structure
 
@@ -72,6 +73,11 @@ dsa-marathon/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
+└── binary-search/
+    └── binary-search/
+        ├── my_solution.py
+        ├── optimal_solution.py
+        └── notes.md
 ```
 
 ## Quick Reference
@@ -98,3 +104,4 @@ dsa-marathon/
 | Daily Temperatures | Monotonic stack | O(n) | O(n) |
 | Car Fleet | Monotonic stack of arrival times | O(n log n) | O(n) |
 | Largest Rectangle in Histogram | Monotonic stack of indices | O(n) | O(n) |
+| Binary Search | Halve window with `mid ± 1` | O(log n) | O(1) |
