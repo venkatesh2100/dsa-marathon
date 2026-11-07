@@ -37,6 +37,7 @@ Every problem folder contains:
 | binary-search | [Koko Eating Bananas](binary-search/koko-eating-bananas/) | O(n · log m) | O(1) | ✅ |
 | binary-search | [Find Minimum in Rotated Sorted Array](binary-search/find-minimum-in-rotated-sorted-array/) | O(log n) | O(1) | ✅ |
 | binary-search | [Search in Rotated Sorted Array](binary-search/search-in-rotated-sorted-array/) | O(log n) | O(1) | ✅ |
+| binary-search | [Median of Two Sorted Arrays](binary-search/median-of-two-sorted-arrays/) | O(log min(m, n)) | O(1) | ✅ |
 
 ## Structure
 
@@ -94,7 +95,11 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
-    └── search-in-rotated-sorted-array/
+    ├── search-in-rotated-sorted-array/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── median-of-two-sorted-arrays/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -129,3 +134,4 @@ dsa-marathon/
 | Koko Eating Bananas | Binary search on the answer | O(n · log m) | O(1) |
 | Find Minimum in Rotated Sorted Array | Binary search: compare mid vs right end | O(log n) | O(1) |
 | Search in Rotated Sorted Array | One-pass sorted-half range check | O(log n) | O(1) |
+| Median of Two Sorted Arrays | Partition-cut binary search on smaller array | O(log min(m, n)) | O(1) |

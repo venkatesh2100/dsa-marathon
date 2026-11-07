@@ -7,3 +7,4 @@
 | [Koko Eating Bananas](koko-eating-bananas/) | Binary search on the answer | O(n · log m) | O(1) | Lower-bound template: `l < r` + `r = mid` |
 | [Find Minimum in Rotated Sorted Array](find-minimum-in-rotated-sorted-array/) | Binary search, compare mid vs right end | O(log n) | O(1) | Lower-bound template again; compare to `r`, not `l` — left comparison can't tell sorted from rotated |
 | [Search in Rotated Sorted Array](search-in-rotated-sorted-array/) | One-pass: sorted half's range vetoes the other | O(log n) | O(1) | Template A; half-detection must use `<=` (mid==l on tiny windows), range checks are half-open |
+| [Median of Two Sorted Arrays](median-of-two-sorted-arrays/) | Binary search the smaller array's partition cut | O(log min(m, n)) | O(1) | Search space is partition sizes, not values; `half = (m+n+1)//2` keeps odd medians on the left |
