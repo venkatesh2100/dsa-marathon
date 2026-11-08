@@ -41,6 +41,7 @@ Every problem folder contains:
 | sliding-window | [Best Time to Buy and Sell Stock](sliding-window/best-time-to-buy-and-sell-stock/) | O(n) | O(1) | ✅ |
 | sliding-window | [Longest Substring Without Repeating Characters](sliding-window/longest-substring-without-repeating-characters/) | O(n) | O(min(n, Σ)) | ✅ |
 | sliding-window | [Longest Repeating Character Replacement](sliding-window/longest-repeating-character-replacement/) | O(n) | O(Σ) | ✅ |
+| linked-list | [Reverse Linked List](linked-list/reverse-linked-list/) | O(n) | O(1) | ✅ |
 
 ## Structure
 
@@ -119,6 +120,11 @@ dsa-marathon/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
+└── linked-list/
+    └── reverse-linked-list/
+        ├── my_solution.py
+        ├── optimal_solution.py
+        └── notes.md
 ```
 
 ## Quick Reference
@@ -154,3 +160,4 @@ dsa-marathon/
 | Best Time to Buy and Sell Stock | One-pass running min | O(n) | O(1) |
 | Longest Substring Without Repeating Characters | Shrink-on-duplicate window | O(n) | O(min(n, Σ)) |
 | Longest Repeating Character Replacement | One-slide-per-step window + stale max_freq | O(n) | O(Σ) |
+| Reverse Linked List | In-place three-pointer walk | O(n) | O(1) |
