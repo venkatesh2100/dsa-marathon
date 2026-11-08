@@ -40,6 +40,7 @@ Every problem folder contains:
 | binary-search | [Median of Two Sorted Arrays](binary-search/median-of-two-sorted-arrays/) | O(log min(m, n)) | O(1) | ✅ |
 | sliding-window | [Best Time to Buy and Sell Stock](sliding-window/best-time-to-buy-and-sell-stock/) | O(n) | O(1) | ✅ |
 | sliding-window | [Longest Substring Without Repeating Characters](sliding-window/longest-substring-without-repeating-characters/) | O(n) | O(min(n, Σ)) | ✅ |
+| sliding-window | [Longest Repeating Character Replacement](sliding-window/longest-repeating-character-replacement/) | O(n) | O(Σ) | ✅ |
 
 ## Structure
 
@@ -110,7 +111,11 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
-    └── longest-substring-without-repeating-characters/
+    ├── longest-substring-without-repeating-characters/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── longest-repeating-character-replacement/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -148,3 +153,4 @@ dsa-marathon/
 | Median of Two Sorted Arrays | Partition-cut binary search on smaller array | O(log min(m, n)) | O(1) |
 | Best Time to Buy and Sell Stock | One-pass running min | O(n) | O(1) |
 | Longest Substring Without Repeating Characters | Shrink-on-duplicate window | O(n) | O(min(n, Σ)) |
+| Longest Repeating Character Replacement | One-slide-per-step window + stale max_freq | O(n) | O(Σ) |
