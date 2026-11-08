@@ -2,7 +2,7 @@
 
 **Problem:** Return `True` iff the linked list's tail points back to some earlier node (`pos` = index the tail connects to; `pos = -1` means no cycle).
 
-**Links:** [NeetCode](https://neetcode.io/problems/linked-list-cycle-detection) · [LeetCode 141](https://leetcode.com/problems/linked-list-cycle-detection/)
+**Links:** [NeetCode](https://neetcode.io/problems/linked-list-cycle-detection) · [LeetCode 141](https://leetcode.com/problems/linked-list-cycle/)
 
 ---
 
