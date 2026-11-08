@@ -43,6 +43,7 @@ Every problem folder contains:
 | sliding-window | [Longest Repeating Character Replacement](sliding-window/longest-repeating-character-replacement/) | O(n) | O(Σ) | ✅ |
 | linked-list | [Reverse Linked List](linked-list/reverse-linked-list/) | O(n) | O(1) | ✅ |
 | linked-list | [Merge Two Sorted Lists](linked-list/merge-two-sorted-lists/) | O(n + m) | O(1) | ✅ |
+| linked-list | [Linked List Cycle](linked-list/linked-list-cycle/) | O(n) | O(1) | ✅ |
 
 ## Structure
 
@@ -130,6 +131,10 @@ dsa-marathon/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
+    └── linked-list-cycle/
+        ├── my_solution.py
+        ├── optimal_solution.py
+        └── notes.md
 ```
 
 ## Quick Reference
@@ -167,3 +172,4 @@ dsa-marathon/
 | Longest Repeating Character Replacement | One-slide-per-step window + stale max_freq | O(n) | O(Σ) |
 | Reverse Linked List | In-place three-pointer walk | O(n) | O(1) |
 | Merge Two Sorted Lists | Dummy-head tail splice | O(n + m) | O(1) |
+| Linked List Cycle | Floyd's tortoise & hare | O(n) | O(1) |

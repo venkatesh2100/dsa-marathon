@@ -4,3 +4,4 @@
 |---|---|---|---|---|
 | [Reverse Linked List](reverse-linked-list/) | In-place three-pointer walk | O(n) | O(1) | Capture `curr.next` *before* flipping the arrow; same node objects relinked — genuinely in-place; recursion costs O(n) stack and can hit Python's ~1000-frame cap on long lists |
 | [Merge Two Sorted Lists](merge-two-sorted-lists/) | Dummy-head iterative splice | O(n + m) | O(1) | Dummy guard makes "return the head" free of special cases; `<=` keeps ties stable (list1 leads); the two drain loops collapse to `tail.next = list1 if list1 else list2` since the survivor is pre-sorted |
+| [Linked List Cycle](linked-list-cycle/) | Floyd's tortoise & hare | O(n) | O(1) | When both pointers are inside the cycle, fast closes the gap by exactly 1/round — it must land on slow, never leap past; compare via `is` (identity), not `==` (value), so a future `__eq__` can't silently break it; visited-set fallback costs O(n) but finds the entry node for free |
