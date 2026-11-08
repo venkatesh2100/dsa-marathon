@@ -42,6 +42,7 @@ Every problem folder contains:
 | sliding-window | [Longest Substring Without Repeating Characters](sliding-window/longest-substring-without-repeating-characters/) | O(n) | O(min(n, Σ)) | ✅ |
 | sliding-window | [Longest Repeating Character Replacement](sliding-window/longest-repeating-character-replacement/) | O(n) | O(Σ) | ✅ |
 | linked-list | [Reverse Linked List](linked-list/reverse-linked-list/) | O(n) | O(1) | ✅ |
+| linked-list | [Merge Two Sorted Lists](linked-list/merge-two-sorted-lists/) | O(n + m) | O(1) | ✅ |
 
 ## Structure
 
@@ -121,7 +122,11 @@ dsa-marathon/
         ├── optimal_solution.py
         └── notes.md
 └── linked-list/
-    └── reverse-linked-list/
+    ├── reverse-linked-list/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── merge-two-sorted-lists/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -161,3 +166,4 @@ dsa-marathon/
 | Longest Substring Without Repeating Characters | Shrink-on-duplicate window | O(n) | O(min(n, Σ)) |
 | Longest Repeating Character Replacement | One-slide-per-step window + stale max_freq | O(n) | O(Σ) |
 | Reverse Linked List | In-place three-pointer walk | O(n) | O(1) |
+| Merge Two Sorted Lists | Dummy-head tail splice | O(n + m) | O(1) |
