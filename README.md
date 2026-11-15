@@ -68,6 +68,7 @@ Every problem folder contains:
 | backtracking | [Subsets II](backtracking/subsets-ii/) | O(n · 2ⁿ) | O(n) | ✅ |
 | backtracking | [Word Search](backtracking/word-search/) | O(m · n · 4ᴸ) | O(L) | ✅ |
 | backtracking | [Palindrome Partitioning](backtracking/palindrome-partitioning/) | O(n² + n · 2ⁿ) | O(n²) | ✅ |
+| backtracking | [N-Queens](backtracking/n-queens/) | O(n!) | O(n) | ✅ |
 
 ## Structure
 
@@ -257,6 +258,10 @@ dsa-marathon/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
+    └── n-queens/
+        ├── my_solution.py
+        ├── optimal_solution.py
+        └── notes.md
 ```
 
 ## Quick Reference
@@ -319,3 +324,4 @@ dsa-marathon/
 | Subsets II | For-loop backtracking, sibling dedup | O(n · 2ⁿ) | O(n) |
 | Word Search | DFS from each cell, mark + backtrack | O(m · n · 4ᴸ) | O(L) |
 | Palindrome Partitioning | Backtracking over cuts + palindrome DP | O(n² + n · 2ⁿ) | O(n²) |
+| N-Queens | Row-by-row backtracking, occupancy sets | O(n!) | O(n) |
