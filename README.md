@@ -67,6 +67,7 @@ Every problem folder contains:
 | backtracking | [Generate Parentheses](backtracking/generate-parentheses/) | O(4ⁿ / √n) | O(n) | ✅ |
 | backtracking | [Subsets II](backtracking/subsets-ii/) | O(n · 2ⁿ) | O(n) | ✅ |
 | backtracking | [Word Search](backtracking/word-search/) | O(m · n · 4ᴸ) | O(L) | ✅ |
+| backtracking | [Palindrome Partitioning](backtracking/palindrome-partitioning/) | O(n² + n · 2ⁿ) | O(n²) | ✅ |
 
 ## Structure
 
@@ -252,6 +253,10 @@ dsa-marathon/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
+    └── palindrome-partitioning/
+        ├── my_solution.py
+        ├── optimal_solution.py
+        └── notes.md
 ```
 
 ## Quick Reference
@@ -313,3 +318,4 @@ dsa-marathon/
 | Generate Parentheses | Backtracking on open/close counters | O(4ⁿ / √n) | O(n) |
 | Subsets II | For-loop backtracking, sibling dedup | O(n · 2ⁿ) | O(n) |
 | Word Search | DFS from each cell, mark + backtrack | O(m · n · 4ᴸ) | O(L) |
+| Palindrome Partitioning | Backtracking over cuts + palindrome DP | O(n² + n · 2ⁿ) | O(n²) |
