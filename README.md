@@ -60,6 +60,7 @@ Every problem folder contains:
 | trees | [Validate Binary Search Tree](trees/validate-binary-search-tree/) | O(n) | O(h) | ✅ |
 | trees | [Kth Smallest Element in a BST](trees/kth-smallest-element-in-a-bst/) | O(h + k) | O(h) | ✅ |
 | trees | [Binary Tree Maximum Path Sum](trees/binary-tree-maximum-path-sum/) | O(n) | O(h) | ✅ |
+| backtracking | [Subsets](backtracking/subsets/) | O(n · 2ⁿ) | O(n) | ✅ |
 
 ## Structure
 
@@ -163,7 +164,7 @@ dsa-marathon/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
-└── trees/
+├── trees/
     ├── max-depth-of-binary-tree/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
@@ -213,6 +214,11 @@ dsa-marathon/
     │   ├── optimal_solution.py
     │   └── notes.md
     └── balanced-binary-tree/
+        ├── my_solution.py
+        ├── optimal_solution.py
+        └── notes.md
+└── backtracking/
+    └── subsets/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -270,3 +276,4 @@ dsa-marathon/
 | Validate Binary Search Tree | DFS with inherited (low, high) bounds | O(n) | O(h) |
 | Kth Smallest Element in a BST | Iterative in-order, stop at k | O(h + k) | O(h) |
 | Binary Tree Maximum Path Sum | Post-order DFS, gain + running max | O(n) | O(h) |
+| Subsets | Include/exclude backtracking | O(n · 2ⁿ) | O(n) |
