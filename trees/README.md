@@ -9,3 +9,4 @@
 | [Same Tree](same-tree/) | Recursive DFS pair comparison | O(n) | O(h) | Both `None` → match; one `None` or value mismatch → fail; recurse on both subtrees with short-circuit `and` |
 | [Subtree of Another Tree](subtree-of-another-tree/) | DFS + same-tree check per node | O(n · m) | O(n + m) | Same-Tree comparison at every node of root, recurse left/right on failure; O(n + m) follow-up: serialize with null markers + substring search |
 | [Lowest Common Ancestor of a BST](lowest-common-ancestor-of-a-bst/) | Iterative descent on BST order | O(h) | O(1) | Walk down while both targets are on the same side; return at the split point or when `cur` is `p`/`q`; no null guard needed only because targets are guaranteed present |
+| [Binary Tree Level Order Traversal](binary-tree-level-order-traversal/) | BFS with per-level queue snapshot | O(n) | O(w) | Inner `for _ in range(len(q))` processes exactly one level; DFS + depth-indexed buckets is the no-queue alternative |
