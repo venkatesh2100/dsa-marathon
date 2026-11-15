@@ -59,6 +59,7 @@ Every problem folder contains:
 | trees | [Count Good Nodes in Binary Tree](trees/count-good-nodes-in-binary-tree/) | O(n) | O(h) | ✅ |
 | trees | [Validate Binary Search Tree](trees/validate-binary-search-tree/) | O(n) | O(h) | ✅ |
 | trees | [Kth Smallest Element in a BST](trees/kth-smallest-element-in-a-bst/) | O(h + k) | O(h) | ✅ |
+| trees | [Binary Tree Maximum Path Sum](trees/binary-tree-maximum-path-sum/) | O(n) | O(h) | ✅ |
 
 ## Structure
 
@@ -207,6 +208,10 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
+    ├── binary-tree-maximum-path-sum/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
     └── balanced-binary-tree/
         ├── my_solution.py
         ├── optimal_solution.py
@@ -264,3 +269,4 @@ dsa-marathon/
 | Count Good Nodes in Binary Tree | DFS passing path max down | O(n) | O(h) |
 | Validate Binary Search Tree | DFS with inherited (low, high) bounds | O(n) | O(h) |
 | Kth Smallest Element in a BST | Iterative in-order, stop at k | O(h + k) | O(h) |
+| Binary Tree Maximum Path Sum | Post-order DFS, gain + running max | O(n) | O(h) |
