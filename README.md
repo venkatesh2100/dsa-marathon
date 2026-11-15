@@ -51,6 +51,7 @@ Every problem folder contains:
 | trees | [Invert Binary Tree](trees/invert-binary-tree/) | O(n) | O(h) | ✅ |
 | trees | [Diameter of Binary Tree](trees/diameter-of-binary-tree/) | O(n) | O(h) | ✅ |
 | trees | [Balanced Binary Tree](trees/balanced-binary-tree/) | O(n) | O(h) | ✅ |
+| trees | [Same Tree](trees/same-tree/) | O(n) | O(h) | ✅ |
 
 ## Structure
 
@@ -167,6 +168,10 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
+    ├── same-tree/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
     └── balanced-binary-tree/
         ├── my_solution.py
         ├── optimal_solution.py
@@ -216,3 +221,4 @@ dsa-marathon/
 | Invert Binary Tree | Recursive DFS (in-place) | O(n) | O(h) |
 | Diameter of Binary Tree | Post-order DFS + running max | O(n) | O(h) |
 | Balanced Binary Tree | Post-order DFS, -1 sentinel | O(n) | O(h) |
+| Same Tree | Recursive DFS pair comparison | O(n) | O(h) |
