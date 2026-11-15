@@ -53,6 +53,7 @@ Every problem folder contains:
 | trees | [Balanced Binary Tree](trees/balanced-binary-tree/) | O(n) | O(h) | ✅ |
 | trees | [Same Tree](trees/same-tree/) | O(n) | O(h) | ✅ |
 | trees | [Subtree of Another Tree](trees/subtree-of-another-tree/) | O(n · m) | O(n + m) | ✅ |
+| trees | [Lowest Common Ancestor of a BST](trees/lowest-common-ancestor-of-a-bst/) | O(h) | O(1) | ✅ |
 
 ## Structure
 
@@ -177,6 +178,10 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
+    ├── lowest-common-ancestor-of-a-bst/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
     └── balanced-binary-tree/
         ├── my_solution.py
         ├── optimal_solution.py
@@ -228,3 +233,4 @@ dsa-marathon/
 | Balanced Binary Tree | Post-order DFS, -1 sentinel | O(n) | O(h) |
 | Same Tree | Recursive DFS pair comparison | O(n) | O(h) |
 | Subtree of Another Tree | DFS + same-tree check per node | O(n · m) | O(n + m) |
+| Lowest Common Ancestor of a BST | Iterative descent on BST order | O(h) | O(1) |
