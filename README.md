@@ -62,6 +62,7 @@ Every problem folder contains:
 | trees | [Binary Tree Maximum Path Sum](trees/binary-tree-maximum-path-sum/) | O(n) | O(h) | ✅ |
 | backtracking | [Subsets](backtracking/subsets/) | O(n · 2ⁿ) | O(n) | ✅ |
 | backtracking | [Combination Sum](backtracking/combination-sum/) | O(n^(T/M)) | O(T/M) | ✅ |
+| backtracking | [Combination Sum II](backtracking/combination-sum-ii/) | O(n · 2ⁿ) | O(n) | ✅ |
 
 ## Structure
 
@@ -223,7 +224,11 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
-    └── combination-sum/
+    ├── combination-sum/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── combination-sum-ii/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -283,3 +288,4 @@ dsa-marathon/
 | Binary Tree Maximum Path Sum | Post-order DFS, gain + running max | O(n) | O(h) |
 | Subsets | Include/exclude backtracking | O(n · 2ⁿ) | O(n) |
 | Combination Sum | Sorted forward backtracking, break-pruned | O(n^(T/M)) | O(T/M) |
+| Combination Sum II | For-loop backtracking, sibling dedup + break | O(n · 2ⁿ) | O(n) |
