@@ -48,6 +48,8 @@ Every problem folder contains:
 | linked-list | [Remove Nth Node From End of List](linked-list/remove-nth-node-from-end-of-list/) | O(n) | O(1) | ✅ |
 | linked-list | [Copy List with Random Pointer](linked-list/copy-list-with-random-pointer/) | O(n) | O(1) | ✅ |
 | trees | [Maximum Depth of Binary Tree](trees/max-depth-of-binary-tree/) | O(n) | O(h) | ✅ |
+| trees | [Invert Binary Tree](trees/invert-binary-tree/) | O(n) | O(h) | ✅ |
+| trees | [Diameter of Binary Tree](trees/diameter-of-binary-tree/) | O(n) | O(h) | ✅ |
 
 ## Structure
 
@@ -152,7 +154,15 @@ dsa-marathon/
         ├── optimal_solution.py
         └── notes.md
 └── trees/
-    └── max-depth-of-binary-tree/
+    ├── max-depth-of-binary-tree/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── invert-binary-tree/
+        ├── my_solution.py
+        ├── optimal_solution.py
+        └── notes.md
+    └── diameter-of-binary-tree/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -198,3 +208,5 @@ dsa-marathon/
 | Remove Nth Node From End of List | One-pass fast/slow, n-wide gap behind dummy | O(n) | O(1) |
 | Copy List with Random Pointer | Two-pass old→new map; O(1) follow-up: weave clones in, split out | O(n) | O(1) |
 | Maximum Depth of Binary Tree | Recursive DFS | O(n) | O(h) |
+| Invert Binary Tree | Recursive DFS (in-place) | O(n) | O(h) |
+| Diameter of Binary Tree | Post-order DFS + running max | O(n) | O(h) |
