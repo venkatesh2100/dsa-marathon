@@ -7,3 +7,4 @@
 | [Diameter of Binary Tree](diameter-of-binary-tree/) | Post-order DFS + running max | O(n) | O(h) | Track `left + right` at every node as candidate diameter while returning heights |
 | [Balanced Binary Tree](balanced-binary-tree/) | Post-order DFS, `-1` sentinel | O(n) | O(h) | Return height or `-1` if unbalanced; prunes siblings once `False` is known |
 | [Same Tree](same-tree/) | Recursive DFS pair comparison | O(n) | O(h) | Both `None` → match; one `None` or value mismatch → fail; recurse on both subtrees with short-circuit `and` |
+| [Subtree of Another Tree](subtree-of-another-tree/) | DFS + same-tree check per node | O(n · m) | O(n + m) | Same-Tree comparison at every node of root, recurse left/right on failure; O(n + m) follow-up: serialize with null markers + substring search |
