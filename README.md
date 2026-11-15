@@ -66,6 +66,7 @@ Every problem folder contains:
 | backtracking | [Permutations](backtracking/permutations/) | O(n · n!) | O(n) | ✅ |
 | backtracking | [Generate Parentheses](backtracking/generate-parentheses/) | O(4ⁿ / √n) | O(n) | ✅ |
 | backtracking | [Subsets II](backtracking/subsets-ii/) | O(n · 2ⁿ) | O(n) | ✅ |
+| backtracking | [Word Search](backtracking/word-search/) | O(m · n · 4ᴸ) | O(L) | ✅ |
 
 ## Structure
 
@@ -247,6 +248,10 @@ dsa-marathon/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
+    └── word-search/
+        ├── my_solution.py
+        ├── optimal_solution.py
+        └── notes.md
 ```
 
 ## Quick Reference
@@ -307,3 +312,4 @@ dsa-marathon/
 | Permutations | Backtracking with a `used` array | O(n · n!) | O(n) |
 | Generate Parentheses | Backtracking on open/close counters | O(4ⁿ / √n) | O(n) |
 | Subsets II | For-loop backtracking, sibling dedup | O(n · 2ⁿ) | O(n) |
+| Word Search | DFS from each cell, mark + backtrack | O(m · n · 4ᴸ) | O(L) |
