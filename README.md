@@ -47,6 +47,7 @@ Every problem folder contains:
 | linked-list | [Reorder List](linked-list/reorder-list/) | O(n) | O(1) | ✅ |
 | linked-list | [Remove Nth Node From End of List](linked-list/remove-nth-node-from-end-of-list/) | O(n) | O(1) | ✅ |
 | linked-list | [Copy List with Random Pointer](linked-list/copy-list-with-random-pointer/) | O(n) | O(1) | ✅ |
+| trees | [Maximum Depth of Binary Tree](trees/max-depth-of-binary-tree/) | O(n) | O(h) | ✅ |
 
 ## Structure
 
@@ -150,6 +151,11 @@ dsa-marathon/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
+└── trees/
+    └── max-depth-of-binary-tree/
+        ├── my_solution.py
+        ├── optimal_solution.py
+        └── notes.md
 ```
 
 ## Quick Reference
@@ -191,3 +197,4 @@ dsa-marathon/
 | Reorder List | Split, reverse tail half, weave | O(n) | O(1) |
 | Remove Nth Node From End of List | One-pass fast/slow, n-wide gap behind dummy | O(n) | O(1) |
 | Copy List with Random Pointer | Two-pass old→new map; O(1) follow-up: weave clones in, split out | O(n) | O(1) |
+| Maximum Depth of Binary Tree | Recursive DFS | O(n) | O(h) |
