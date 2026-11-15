@@ -61,6 +61,7 @@ Every problem folder contains:
 | trees | [Kth Smallest Element in a BST](trees/kth-smallest-element-in-a-bst/) | O(h + k) | O(h) | ✅ |
 | trees | [Binary Tree Maximum Path Sum](trees/binary-tree-maximum-path-sum/) | O(n) | O(h) | ✅ |
 | backtracking | [Subsets](backtracking/subsets/) | O(n · 2ⁿ) | O(n) | ✅ |
+| backtracking | [Combination Sum](backtracking/combination-sum/) | O(n^(T/M)) | O(T/M) | ✅ |
 
 ## Structure
 
@@ -218,7 +219,11 @@ dsa-marathon/
         ├── optimal_solution.py
         └── notes.md
 └── backtracking/
-    └── subsets/
+    ├── subsets/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── combination-sum/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -277,3 +282,4 @@ dsa-marathon/
 | Kth Smallest Element in a BST | Iterative in-order, stop at k | O(h + k) | O(h) |
 | Binary Tree Maximum Path Sum | Post-order DFS, gain + running max | O(n) | O(h) |
 | Subsets | Include/exclude backtracking | O(n · 2ⁿ) | O(n) |
+| Combination Sum | Sorted forward backtracking, break-pruned | O(n^(T/M)) | O(T/M) |
