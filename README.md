@@ -63,6 +63,7 @@ Every problem folder contains:
 | backtracking | [Subsets](backtracking/subsets/) | O(n · 2ⁿ) | O(n) | ✅ |
 | backtracking | [Combination Sum](backtracking/combination-sum/) | O(n^(T/M)) | O(T/M) | ✅ |
 | backtracking | [Combination Sum II](backtracking/combination-sum-ii/) | O(n · 2ⁿ) | O(n) | ✅ |
+| backtracking | [Permutations](backtracking/permutations/) | O(n · n!) | O(n) | ✅ |
 
 ## Structure
 
@@ -228,7 +229,11 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
-    └── combination-sum-ii/
+    ├── combination-sum-ii/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── permutations/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -289,3 +294,4 @@ dsa-marathon/
 | Subsets | Include/exclude backtracking | O(n · 2ⁿ) | O(n) |
 | Combination Sum | Sorted forward backtracking, break-pruned | O(n^(T/M)) | O(T/M) |
 | Combination Sum II | For-loop backtracking, sibling dedup + break | O(n · 2ⁿ) | O(n) |
+| Permutations | Backtracking with a `used` array | O(n · n!) | O(n) |
