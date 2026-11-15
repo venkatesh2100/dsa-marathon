@@ -57,6 +57,7 @@ Every problem folder contains:
 | trees | [Binary Tree Level Order Traversal](trees/binary-tree-level-order-traversal/) | O(n) | O(w) | ✅ |
 | trees | [Binary Tree Right Side View](trees/binary-tree-right-side-view/) | O(n) | O(h) | ✅ |
 | trees | [Count Good Nodes in Binary Tree](trees/count-good-nodes-in-binary-tree/) | O(n) | O(h) | ✅ |
+| trees | [Validate Binary Search Tree](trees/validate-binary-search-tree/) | O(n) | O(h) | ✅ |
 
 ## Structure
 
@@ -197,6 +198,10 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
+    ├── validate-binary-search-tree/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
     └── balanced-binary-tree/
         ├── my_solution.py
         ├── optimal_solution.py
@@ -252,3 +257,4 @@ dsa-marathon/
 | Binary Tree Level Order Traversal | BFS with per-level queue snapshot | O(n) | O(w) |
 | Binary Tree Right Side View | Right-first DFS, one row per depth | O(n) | O(h) |
 | Count Good Nodes in Binary Tree | DFS passing path max down | O(n) | O(h) |
+| Validate Binary Search Tree | DFS with inherited (low, high) bounds | O(n) | O(h) |
