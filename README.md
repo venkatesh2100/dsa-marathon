@@ -71,6 +71,7 @@ Every problem folder contains:
 | backtracking | [N-Queens](backtracking/n-queens/) | O(n!) | O(n) | ✅ |
 | graphs | [Number of Islands](graphs/number-of-islands/) | O(m · n) | O(min(m, n)) | ✅ |
 | graphs | [Max Area of Island](graphs/max-area-of-island/) | O(m · n) | O(min(m, n)) | ✅ |
+| graphs | [Clone Graph](graphs/clone-graph/) | O(V + E) | O(V) | ✅ |
 
 ## Structure
 
@@ -269,7 +270,11 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
-    └── max-area-of-island/
+    ├── max-area-of-island/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── clone-graph/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -338,3 +343,4 @@ dsa-marathon/
 | N-Queens | Row-by-row backtracking, occupancy sets | O(n!) | O(n) |
 | Number of Islands | BFS/DFS flood-fill, sink in place | O(m · n) | O(min(m, n)) |
 | Max Area of Island | BFS/DFS flood-fill, count per island | O(m · n) | O(min(m, n)) |
+| Clone Graph | BFS with original→clone map | O(V + E) | O(V) |
