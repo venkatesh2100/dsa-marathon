@@ -70,6 +70,7 @@ Every problem folder contains:
 | backtracking | [Palindrome Partitioning](backtracking/palindrome-partitioning/) | O(n² + n · 2ⁿ) | O(n²) | ✅ |
 | backtracking | [N-Queens](backtracking/n-queens/) | O(n!) | O(n) | ✅ |
 | graphs | [Number of Islands](graphs/number-of-islands/) | O(m · n) | O(min(m, n)) | ✅ |
+| graphs | [Max Area of Island](graphs/max-area-of-island/) | O(m · n) | O(min(m, n)) | ✅ |
 
 ## Structure
 
@@ -264,7 +265,11 @@ dsa-marathon/
         ├── optimal_solution.py
         └── notes.md
 └── graphs/
-    └── number-of-islands/
+    ├── number-of-islands/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── max-area-of-island/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -332,3 +337,4 @@ dsa-marathon/
 | Palindrome Partitioning | Backtracking over cuts + palindrome DP | O(n² + n · 2ⁿ) | O(n²) |
 | N-Queens | Row-by-row backtracking, occupancy sets | O(n!) | O(n) |
 | Number of Islands | BFS/DFS flood-fill, sink in place | O(m · n) | O(min(m, n)) |
+| Max Area of Island | BFS/DFS flood-fill, count per island | O(m · n) | O(min(m, n)) |
