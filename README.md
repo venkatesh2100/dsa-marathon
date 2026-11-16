@@ -73,6 +73,7 @@ Every problem folder contains:
 | graphs | [Max Area of Island](graphs/max-area-of-island/) | O(m · n) | O(min(m, n)) | ✅ |
 | graphs | [Clone Graph](graphs/clone-graph/) | O(V + E) | O(V) | ✅ |
 | graphs | [Islands and Treasure](graphs/islands-and-treasure/) | O(m · n) | O(m · n) | ✅ |
+| graphs | [Rotting Oranges](graphs/rotting-oranges/) | O(m · n) | O(m · n) | ✅ |
 
 ## Structure
 
@@ -279,7 +280,11 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
-    └── islands-and-treasure/
+    ├── islands-and-treasure/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── rotting-oranges/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -350,3 +355,4 @@ dsa-marathon/
 | Max Area of Island | BFS/DFS flood-fill, count per island | O(m · n) | O(min(m, n)) |
 | Clone Graph | BFS with original→clone map | O(V + E) | O(V) |
 | Islands and Treasure | Multi-source BFS from all gates | O(m · n) | O(m · n) |
+| Rotting Oranges | Multi-source BFS from all rotten + fresh counter | O(m · n) | O(m · n) |
