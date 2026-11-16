@@ -72,6 +72,7 @@ Every problem folder contains:
 | graphs | [Number of Islands](graphs/number-of-islands/) | O(m · n) | O(min(m, n)) | ✅ |
 | graphs | [Max Area of Island](graphs/max-area-of-island/) | O(m · n) | O(min(m, n)) | ✅ |
 | graphs | [Clone Graph](graphs/clone-graph/) | O(V + E) | O(V) | ✅ |
+| graphs | [Islands and Treasure](graphs/islands-and-treasure/) | O(m · n) | O(m · n) | ✅ |
 
 ## Structure
 
@@ -274,7 +275,11 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
-    └── clone-graph/
+    ├── clone-graph/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── islands-and-treasure/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -344,3 +349,4 @@ dsa-marathon/
 | Number of Islands | BFS/DFS flood-fill, sink in place | O(m · n) | O(min(m, n)) |
 | Max Area of Island | BFS/DFS flood-fill, count per island | O(m · n) | O(min(m, n)) |
 | Clone Graph | BFS with original→clone map | O(V + E) | O(V) |
+| Islands and Treasure | Multi-source BFS from all gates | O(m · n) | O(m · n) |
