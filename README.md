@@ -77,6 +77,7 @@ Every problem folder contains:
 | graphs | [Pacific Atlantic Water Flow](graphs/pacific-atlantic-water-flow/) | O(m · n) | O(m · n) | ✅ |
 | graphs | [Surrounded Regions](graphs/surrounded-regions/) | O(m · n) | O(m · n) | ✅ |
 | heap | [Last Stone Weight](heap/last-stone-weight/) | O(n log n) | O(n) | ✅ |
+| heap | [K Closest Points to Origin](heap/k-closest-points-to-origin/) | O(n log k) | O(k) | ✅ |
 
 ## Structure
 
@@ -300,7 +301,11 @@ dsa-marathon/
         ├── optimal_solution.py
         └── notes.md
 └── heap/
-    └── last-stone-weight/
+    ├── last-stone-weight/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── k-closest-points-to-origin/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -375,3 +380,4 @@ dsa-marathon/
 | Pacific Atlantic Water Flow | Reverse multi-source BFS from both oceans, intersect sets | O(m · n) | O(m · n) |
 | Surrounded Regions | BFS from every border "O", sentinel marks safe cells | O(m · n) | O(m · n) |
 | Last Stone Weight | Max-heap via negated values | O(n log n) | O(n) |
+| K Closest Points to Origin | Max-heap of size k on squared distance | O(n log k) | O(k) |
