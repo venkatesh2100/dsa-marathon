@@ -75,6 +75,7 @@ Every problem folder contains:
 | graphs | [Islands and Treasure](graphs/islands-and-treasure/) | O(m · n) | O(m · n) | ✅ |
 | graphs | [Rotting Oranges](graphs/rotting-oranges/) | O(m · n) | O(m · n) | ✅ |
 | graphs | [Pacific Atlantic Water Flow](graphs/pacific-atlantic-water-flow/) | O(m · n) | O(m · n) | ✅ |
+| graphs | [Surrounded Regions](graphs/surrounded-regions/) | O(m · n) | O(m · n) | ✅ |
 
 ## Structure
 
@@ -293,6 +294,10 @@ dsa-marathon/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
+    └── surrounded-regions/
+        ├── my_solution.py
+        ├── optimal_solution.py
+        └── notes.md
 ```
 
 ## Quick Reference
@@ -362,3 +367,4 @@ dsa-marathon/
 | Islands and Treasure | Multi-source BFS from all gates | O(m · n) | O(m · n) |
 | Rotting Oranges | Multi-source BFS from all rotten + fresh counter | O(m · n) | O(m · n) |
 | Pacific Atlantic Water Flow | Reverse multi-source BFS from both oceans, intersect sets | O(m · n) | O(m · n) |
+| Surrounded Regions | BFS from every border "O", sentinel marks safe cells | O(m · n) | O(m · n) |
