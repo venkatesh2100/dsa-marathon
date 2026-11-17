@@ -74,6 +74,7 @@ Every problem folder contains:
 | graphs | [Clone Graph](graphs/clone-graph/) | O(V + E) | O(V) | ✅ |
 | graphs | [Islands and Treasure](graphs/islands-and-treasure/) | O(m · n) | O(m · n) | ✅ |
 | graphs | [Rotting Oranges](graphs/rotting-oranges/) | O(m · n) | O(m · n) | ✅ |
+| graphs | [Pacific Atlantic Water Flow](graphs/pacific-atlantic-water-flow/) | O(m · n) | O(m · n) | ✅ |
 
 ## Structure
 
@@ -284,7 +285,11 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
-    └── rotting-oranges/
+    ├── rotting-oranges/
+    │   ├── my_solution.py
+    │   ├── optimal_solution.py
+    │   └── notes.md
+    └── pacific-atlantic-water-flow/
         ├── my_solution.py
         ├── optimal_solution.py
         └── notes.md
@@ -356,3 +361,4 @@ dsa-marathon/
 | Clone Graph | BFS with original→clone map | O(V + E) | O(V) |
 | Islands and Treasure | Multi-source BFS from all gates | O(m · n) | O(m · n) |
 | Rotting Oranges | Multi-source BFS from all rotten + fresh counter | O(m · n) | O(m · n) |
+| Pacific Atlantic Water Flow | Reverse multi-source BFS from both oceans, intersect sets | O(m · n) | O(m · n) |
