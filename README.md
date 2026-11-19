@@ -381,3 +381,4 @@ dsa-marathon/
 | Surrounded Regions | BFS from every border "O", sentinel marks safe cells | O(m · n) | O(m · n) |
 | Last Stone Weight | Max-heap via negated values | O(n log n) | O(n) |
 | K Closest Points to Origin | Max-heap of size k on squared distance | O(n log k) | O(k) |
+| Dynamic Programming | Two rolling variables | O(n) | O(1) | Fibonacci recurrence `ways(i) = ways(i-1) + ways(i-2)`; only the last two values are needed, so two variables replace the array |
