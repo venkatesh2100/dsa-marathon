@@ -78,6 +78,8 @@ Every problem folder contains:
 | graphs | [Surrounded Regions](graphs/surrounded-regions/) | O(m · n) | O(m · n) | ✅ |
 | heap | [Last Stone Weight](heap/last-stone-weight/) | O(n log n) | O(n) | ✅ |
 | heap | [K Closest Points to Origin](heap/k-closest-points-to-origin/) | O(n log k) | O(k) | ✅ |
+| dynamic-programming | [Climbing Stairs](dynamic-programming/climb-stairs/) | O(n) | O(1) | ✅ |
+| dynamic-programming | [Min Cost Climbing Stairs](dynamic-programming/min-cost-climbing-stairs/) | O(n) | O(1) | ✅ |
 
 ## Structure
 
@@ -143,6 +145,10 @@ dsa-marathon/
     │   ├── my_solution.py
     │   ├── optimal_solution.py
     │   └── notes.md
+├── dynamic-programming/
+│   ├── my_solution.py
+│   ├── optimal_solution.py
+│   └── notes.md
 └── sliding-window/
     ├── best-time-to-buy-and-sell-stock/
     │   ├── my_solution.py
@@ -381,4 +387,5 @@ dsa-marathon/
 | Surrounded Regions | BFS from every border "O", sentinel marks safe cells | O(m · n) | O(m · n) |
 | Last Stone Weight | Max-heap via negated values | O(n log n) | O(n) |
 | K Closest Points to Origin | Max-heap of size k on squared distance | O(n log k) | O(k) |
-| Dynamic Programming | Two rolling variables | O(n) | O(1) | Fibonacci recurrence `ways(i) = ways(i-1) + ways(i-2)`; only the last two values are needed, so two variables replace the array |
+| Climbing Stairs | Two rolling variables | O(n) | O(1) |
+| Min Cost Climbing Stairs | Iterative DP, two variables | O(n) | O(1) |
