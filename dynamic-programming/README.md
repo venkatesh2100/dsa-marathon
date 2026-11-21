@@ -10,3 +10,4 @@
 | [Coin Change](coin-change/) | Bottom-up DP over amounts | O(amount · C) | O(amount) | `dp[a] = 1 + min(dp[a - c])` |
 | [Maximum Product Subarray](max-product-subarray/) | Track running max & min | O(n) | O(1) | Negative numbers flip max/min |
 | [Word Break](word-break/) | Bottom-up DP over prefixes | O(n²) | O(n) | `dp[i]` = s[:i] segmentable |
+| [Unique Paths](unique-paths/) | Combinatorics `C(m+n-2, m-1)` | O(min(m, n)) | O(1) | 2D DP grid; `dp[i][j] = dp[i+1][j] + dp[i][j+1]` |

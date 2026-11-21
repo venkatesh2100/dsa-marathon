@@ -88,6 +88,7 @@ Every problem folder contains:
 | dynamic-programming | [Coin Change](dynamic-programming/coin-change/) | O(amount · C) | O(amount) | ✅ |
 | dynamic-programming | [Maximum Product Subarray](dynamic-programming/max-product-subarray/) | O(n) | O(1) | ✅ |
 | dynamic-programming | [Word Break](dynamic-programming/word-break/) | O(n²) | O(n) | ✅ |
+| dynamic-programming | [Unique Paths](dynamic-programming/unique-paths/) | O(min(m, n)) | O(1) | ✅ |
 
 ## Structure
 
@@ -405,3 +406,4 @@ dsa-marathon/
 | Coin Change | Bottom-up DP table over amounts | O(amount · C) | O(amount) |
 | Maximum Product Subarray | Track running max & min (sign flips) | O(n) | O(1) |
 | Word Break | Bottom-up DP over prefixes | O(n²) | O(n) |
+| Unique Paths | Combinatorics `C(m+n-2, m-1)` | O(min(m, n)) | O(1) |
