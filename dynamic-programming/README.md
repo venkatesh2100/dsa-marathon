@@ -9,3 +9,4 @@
 | [Decode Ways](num-decodings/) | Bottom-up DP, two rolling variables | O(n) | O(1) | `dp[i] = dp[i+1] + (dp[i+2] if 10–26)` |
 | [Coin Change](coin-change/) | Bottom-up DP over amounts | O(amount · C) | O(amount) | `dp[a] = 1 + min(dp[a - c])` |
 | [Maximum Product Subarray](max-product-subarray/) | Track running max & min | O(n) | O(1) | Negative numbers flip max/min |
+| [Word Break](word-break/) | Bottom-up DP over prefixes | O(n²) | O(n) | `dp[i]` = s[:i] segmentable |
