@@ -86,6 +86,7 @@ Every problem folder contains:
 | dynamic-programming | [House Robber II](dynamic-programming/house-robber-ii/) | O(n) | O(1) | ✅ |
 | dynamic-programming | [Decode Ways](dynamic-programming/num-decodings/) | O(n) | O(1) | ✅ |
 | dynamic-programming | [Coin Change](dynamic-programming/coin-change/) | O(amount · C) | O(amount) | ✅ |
+| dynamic-programming | [Maximum Product Subarray](dynamic-programming/max-product-subarray/) | O(n) | O(1) | ✅ |
 
 ## Structure
 
@@ -401,3 +402,4 @@ dsa-marathon/
 | House Robber II | Iterative DP, two variables | O(n) | O(1) |
 | Decode Ways | Bottom-up DP, two rolling variables | O(n) | O(1) |
 | Coin Change | Bottom-up DP table over amounts | O(amount · C) | O(amount) |
+| Maximum Product Subarray | Track running max & min (sign flips) | O(n) | O(1) |
