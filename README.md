@@ -26,6 +26,8 @@ Every problem folder contains:
 | two-pointers | [3Sum](two-pointers/three-sum/) | O(n²) | O(1) | ✅ |
 | two-pointers | [Container With Most Water](two-pointers/container-with-most-water/) | O(n) | O(1) | ✅ |
 | two-pointers | [Trapping Rain Water](two-pointers/trapping-rain-water/) | O(n) | O(1) | ✅ |
+| two-pointers | [Longest Palindromic Substring](two-pointers/longest-palindromic-substring/) | O(n²) | O(1) | ✅ |
+| two-pointers | [Palindromic Substrings](two-pointers/palindromic-substrings/) | O(n²) | O(1) | ✅ |
 | stack | [Valid Parentheses](stack/valid-parentheses/) | O(n) | O(n) | ✅ |
 | stack | [Min Stack](stack/min-stack/) | O(1) | O(n) | ✅ |
 | stack | [Evaluate Reverse Polish Notation](stack/evaluate-reverse-polish-notation/) | O(n) | O(n) | ✅ |
@@ -351,6 +353,7 @@ dsa-marathon/
 | Median of Two Sorted Arrays | Partition-cut binary search on smaller array | O(log min(m, n)) | O(1) |
 | Best Time to Buy and Sell Stock | One-pass running min | O(n) | O(1) |
 | Longest Substring Without Repeating Characters | Shrink-on-duplicate window | O(n) | O(min(n, Σ)) |
+| Longest Palindromic Substring | Expand around every center | O(n²) | O(1) |
 | Longest Repeating Character Replacement | One-slide-per-step window + stale max_freq | O(n) | O(Σ) |
 | Reverse Linked List | In-place three-pointer walk | O(n) | O(1) |
 | Merge Two Sorted Lists | Dummy-head tail splice | O(n + m) | O(1) |
@@ -379,6 +382,7 @@ dsa-marathon/
 | Subsets II | For-loop backtracking, sibling dedup | O(n · 2ⁿ) | O(n) |
 | Word Search | DFS from each cell, mark + backtrack | O(m · n · 4ᴸ) | O(L) |
 | Palindrome Partitioning | Backtracking over cuts + palindrome DP | O(n² + n · 2ⁿ) | O(n²) |
+| Palindromic Substrings | Expand around every center | O(n²) | O(1) |
 | N-Queens | Row-by-row backtracking, occupancy sets | O(n!) | O(n) |
 | Number of Islands | BFS/DFS flood-fill, sink in place | O(m · n) | O(min(m, n)) |
 | Max Area of Island | BFS/DFS flood-fill, count per island | O(m · n) | O(min(m, n)) |

@@ -7,3 +7,5 @@
 | [3Sum](three-sum/) | Sort + two pointers | O(n²) | O(1) | Skip duplicate anchors and pointer values |
 | [Container With Most Water](container-with-most-water/) | Two pointers | O(n) | O(1) | Move the shorter wall; my attempt buggy — see notes |
 | [Trapping Rain Water](trapping-rain-water/) | Two pointers | O(n) | O(1) | Move the smaller wall; running maxima |
+| [Longest Palindromic Substring](longest-palindromic-substring/) | Expand around center | O(n²) | O(1) | Odd `(i, i)` and even `(i, i + 1)` centers |
+| [Palindromic Substrings](palindromic-substrings/) | Expand around center | O(n²) | O(1) | Count each valid expansion |
