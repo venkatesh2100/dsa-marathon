@@ -84,6 +84,8 @@ Every problem folder contains:
 | dynamic-programming | [Min Cost Climbing Stairs](dynamic-programming/min-cost-climbing-stairs/) | O(n) | O(1) | ✅ |
 | dynamic-programming | [House Robber](dynamic-programming/house-robber/) | O(n) | O(1) | ✅ |
 | dynamic-programming | [House Robber II](dynamic-programming/house-robber-ii/) | O(n) | O(1) | ✅ |
+| dynamic-programming | [Decode Ways](dynamic-programming/num-decodings/) | O(n) | O(1) | ✅ |
+| dynamic-programming | [Coin Change](dynamic-programming/coin-change/) | O(amount · C) | O(amount) | ✅ |
 
 ## Structure
 
@@ -397,3 +399,5 @@ dsa-marathon/
 | Min Cost Climbing Stairs | Iterative DP, two variables | O(n) | O(1) |
 | House Robber | Iterative DP, two variables | O(n) | O(1) |
 | House Robber II | Iterative DP, two variables | O(n) | O(1) |
+| Decode Ways | Bottom-up DP, two rolling variables | O(n) | O(1) |
+| Coin Change | Bottom-up DP table over amounts | O(amount · C) | O(amount) |
