@@ -89,6 +89,7 @@ Every problem folder contains:
 | dynamic-programming | [Maximum Product Subarray](dynamic-programming/max-product-subarray/) | O(n) | O(1) | ✅ |
 | dynamic-programming | [Word Break](dynamic-programming/word-break/) | O(n²) | O(n) | ✅ |
 | dynamic-programming | [Unique Paths](dynamic-programming/unique-paths/) | O(min(m, n)) | O(1) | ✅ |
+| dynamic-programming | [Maximum Subarray](dynamic-programming/maximum-subarray/) | O(n) | O(1) | ✅ |
 
 ## Structure
 
@@ -407,3 +408,4 @@ dsa-marathon/
 | Maximum Product Subarray | Track running max & min (sign flips) | O(n) | O(1) |
 | Word Break | Bottom-up DP over prefixes | O(n²) | O(n) |
 | Unique Paths | Combinatorics `C(m+n-2, m-1)` | O(min(m, n)) | O(1) |
+| Maximum Subarray | Kadane's algorithm (best sum ending here) | O(n) | O(1) |
