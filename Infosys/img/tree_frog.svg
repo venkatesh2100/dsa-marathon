@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="451" height="446" viewBox="0 0 451 446" font-family="Menlo,Consolas,monospace">
+<rect width="451" height="446" fill="#ffffff"/>
+<text x="225.5" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">Frog Jump  h=[10,20,30,10]  k=2  → 20</text>
+<line x1="88.5" y1="312" x2="88.5" y2="358" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="88.5" y="344.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">jump 1 +20</text>
+<line x1="157.0" y1="214" x2="88.5" y2="260" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="114.53" y="246.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">jump 1 +10</text>
+<line x1="157.0" y1="214" x2="225.5" y2="260" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="199.47" y="246.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">jump 2 +10</text>
+<line x1="259.75" y1="116" x2="157.0" y2="162" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="196.04500000000002" y="148.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">jump 1 +10</text>
+<line x1="259.75" y1="116" x2="362.5" y2="162" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="323.455" y="148.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">jump 2 +20</text>
+<circle cx="88.5" cy="384" r="26" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="88.5" y="381" text-anchor="middle" font-size="12" fill="#065f46">f(3)</text>
+<text x="88.5" y="398" text-anchor="middle" font-size="13" font-weight="bold" fill="#065f46">= 0</text>
+<circle cx="88.5" cy="286" r="26" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="88.5" y="283" text-anchor="middle" font-size="12" fill="#0f172a">f(2)</text>
+<text x="88.5" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">= 20</text>
+<circle cx="225.5" cy="286" r="26" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="225.5" y="283" text-anchor="middle" font-size="12" fill="#64748b">f(3)</text>
+<text x="225.5" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#64748b">= 0</text>
+<text x="225.5" y="325" text-anchor="middle" font-size="10" fill="#64748b">memo</text>
+<circle cx="157.0" cy="188" r="26" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="157.0" y="185" text-anchor="middle" font-size="12" fill="#0f172a">f(1)</text>
+<text x="157.0" y="202" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">= 10</text>
+<circle cx="362.5" cy="188" r="26" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="362.5" y="185" text-anchor="middle" font-size="12" fill="#64748b">f(2)</text>
+<text x="362.5" y="202" text-anchor="middle" font-size="13" font-weight="bold" fill="#64748b">= 20</text>
+<text x="362.5" y="227" text-anchor="middle" font-size="10" fill="#64748b">memo</text>
+<circle cx="259.75" cy="90" r="26" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="259.75" y="87" text-anchor="middle" font-size="12" fill="#1e3a8a">f(0)</text>
+<text x="259.75" y="104" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">= 20</text>
+</svg>

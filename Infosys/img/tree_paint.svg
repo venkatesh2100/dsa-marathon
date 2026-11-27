@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="735" height="454" viewBox="0 0 735 454" font-family="Menlo,Consolas,monospace">
+<rect width="735" height="454" fill="#ffffff"/>
+<text x="367.5" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">Paint one room  need=6  small(2L,100) large(5L,220)  → 300</text>
+<line x1="159.0" y1="318" x2="89.5" y2="364" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="115.91" y="350.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">small +100</text>
+<line x1="159.0" y1="318" x2="228.5" y2="364" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="202.09" y="350.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">large +220</text>
+<line x1="263.25" y1="218" x2="159.0" y2="264" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="198.615" y="250.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">small +100</text>
+<line x1="263.25" y1="218" x2="367.5" y2="264" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="327.885" y="250.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">large +220</text>
+<line x1="576.0" y1="218" x2="506.5" y2="264" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="532.91" y="250.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">small +100</text>
+<line x1="576.0" y1="218" x2="645.5" y2="264" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="619.09" y="250.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">large +220</text>
+<line x1="419.625" y1="118" x2="263.25" y2="164" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="322.6725" y="150.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">small +100</text>
+<line x1="419.625" y1="118" x2="576.0" y2="164" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="516.5775" y="150.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">large +220</text>
+<circle cx="89.5" cy="391" r="27" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="89.5" y="388" text-anchor="middle" font-size="12" fill="#065f46">f(0)</text>
+<text x="89.5" y="405" text-anchor="middle" font-size="13" font-weight="bold" fill="#065f46">= 0</text>
+<circle cx="228.5" cy="391" r="27" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="228.5" y="388" text-anchor="middle" font-size="12" fill="#065f46">f(-3)</text>
+<text x="228.5" y="405" text-anchor="middle" font-size="13" font-weight="bold" fill="#065f46">= 0</text>
+<circle cx="159.0" cy="291" r="27" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="159.0" y="288" text-anchor="middle" font-size="12" fill="#0f172a">f(2)</text>
+<text x="159.0" y="305" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">= 100</text>
+<circle cx="367.5" cy="291" r="27" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="367.5" y="288" text-anchor="middle" font-size="12" fill="#065f46">f(-1)</text>
+<text x="367.5" y="305" text-anchor="middle" font-size="13" font-weight="bold" fill="#065f46">= 0</text>
+<circle cx="263.25" cy="191" r="27" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="263.25" y="188" text-anchor="middle" font-size="12" fill="#0f172a">f(4)</text>
+<text x="263.25" y="205" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">= 200</text>
+<circle cx="506.5" cy="291" r="27" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="506.5" y="288" text-anchor="middle" font-size="12" fill="#64748b">f(-1)</text>
+<text x="506.5" y="305" text-anchor="middle" font-size="13" font-weight="bold" fill="#64748b">= 0</text>
+<text x="506.5" y="331" text-anchor="middle" font-size="10" fill="#64748b">memo</text>
+<circle cx="645.5" cy="291" r="27" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="645.5" y="288" text-anchor="middle" font-size="12" fill="#065f46">f(-4)</text>
+<text x="645.5" y="305" text-anchor="middle" font-size="13" font-weight="bold" fill="#065f46">= 0</text>
+<circle cx="576.0" cy="191" r="27" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="576.0" y="188" text-anchor="middle" font-size="12" fill="#0f172a">f(1)</text>
+<text x="576.0" y="205" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">= 100</text>
+<circle cx="419.625" cy="91" r="27" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="419.625" y="88" text-anchor="middle" font-size="12" fill="#1e3a8a">f(6)</text>
+<text x="419.625" y="105" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">= 300</text>
+</svg>

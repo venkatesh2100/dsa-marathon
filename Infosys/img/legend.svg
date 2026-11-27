@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="175" viewBox="0 0 600 175" font-family="Menlo,Consolas,monospace">
+<rect width="600" height="175" fill="#ffffff"/>
+<text x="300.0" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">How to read the trees: calls go DOWN, values come back UP</text>
+<circle cx="70" cy="80" r="28" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="70" y="77" font-size="12" fill="#0f172a" text-anchor="middle">f(i)</text>
+<text x="70" y="94" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="bold">= v</text>
+<text x="70" y="128" font-size="13" fill="#334155" text-anchor="middle">root = answer</text>
+<circle cx="220" cy="80" r="28" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="220" y="77" font-size="12" fill="#0f172a" text-anchor="middle">f(i)</text>
+<text x="220" y="94" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="bold">= v</text>
+<text x="220" y="128" font-size="13" fill="#334155" text-anchor="middle">computed</text>
+<circle cx="370" cy="80" r="28" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="370" y="77" font-size="12" fill="#0f172a" text-anchor="middle">f(i)</text>
+<text x="370" y="94" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="bold">= v</text>
+<text x="370" y="128" font-size="13" fill="#334155" text-anchor="middle">base case</text>
+<circle cx="520" cy="80" r="28" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="520" y="77" font-size="12" fill="#0f172a" text-anchor="middle">f(i)</text>
+<text x="520" y="94" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="bold">= v</text>
+<text x="520" y="128" font-size="13" fill="#334155" text-anchor="middle">memo hit</text>
+<text x="300" y="158" font-size="12" fill="#b45309" text-anchor="middle" font-weight="bold">edge text (orange) = the choice taken on that branch</text>
+</svg>

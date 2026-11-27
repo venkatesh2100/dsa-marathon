@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="240" viewBox="0 0 760 240" font-family="Menlo,Consolas,monospace">
+<rect width="760" height="240" fill="#ffffff"/>
+<text x="380.0" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">Flags: L=2 — why exact multiples go first</text>
+<rect x="30" y="55" width="76" height="36" rx="6" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+<text x="68.0" y="78.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">2 ⚑</text>
+<rect x="110" y="55" width="76" height="36" rx="6" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+<text x="148.0" y="78.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">2 ⚑</text>
+<rect x="190" y="55" width="76" height="36" rx="6" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+<text x="228.0" y="78.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">2 ⚑</text>
+<line x1="108" y1="47" x2="108" y2="99" stroke="#0f172a" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="188" y1="47" x2="188" y2="99" stroke="#0f172a" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="290" y="79" font-size="13" fill="#0f172a" text-anchor="start">len 6 (exact): 2 cuts → 3 flags  (last piece FREE)</text>
+<rect x="30" y="125" width="76" height="36" rx="6" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+<text x="68.0" y="148.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">2 ⚑</text>
+<rect x="110" y="125" width="76" height="36" rx="6" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+<text x="148.0" y="148.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">2 ⚑</text>
+<rect x="190" y="125" width="76" height="36" rx="6" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+<text x="228.0" y="148.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">2 ⚑</text>
+<rect x="270" y="125" width="36" height="36" rx="6" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+<text x="288.0" y="148.0" text-anchor="middle" font-size="14" fill="#0f172a">1</text>
+<line x1="108" y1="117" x2="108" y2="169" stroke="#0f172a" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="188" y1="117" x2="188" y2="169" stroke="#0f172a" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="268" y1="117" x2="268" y2="169" stroke="#0f172a" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="330" y="149" font-size="13" fill="#0f172a" text-anchor="start">len 7 (not exact): 3 cuts → 3 flags  (1 per cut)</text>
+<text x="30" y="200" font-size="12" fill="#b45309" text-anchor="start" font-weight="bold">Rule: every cut = 1 flag. Exact multiples give +1 bonus when fully cut.</text>
+<text x="30" y="222" font-size="12" fill="#b45309" text-anchor="start" font-weight="bold">→ finish exact strips first, those needing the FEWEST cuts first.</text>
+</svg>

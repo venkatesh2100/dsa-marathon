@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="270" viewBox="0 0 760 270" font-family="Menlo,Consolas,monospace">
+<rect width="760" height="270" fill="#ffffff"/>
+<text x="380.0" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">Cards: T=3, at most R=1 from the right</text>
+<rect x="30" y="60" width="48" height="40" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="54.0" y="85.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">1</text>
+<rect x="86" y="60" width="48" height="40" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="110.0" y="85.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">2</text>
+<rect x="142" y="60" width="48" height="40" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="166.0" y="85.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">3</text>
+<rect x="198" y="60" width="48" height="40" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="222.0" y="85.0" text-anchor="middle" font-size="14" fill="#0f172a">4</text>
+<rect x="254" y="60" width="48" height="40" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="278.0" y="85.0" text-anchor="middle" font-size="14" fill="#0f172a">5</text>
+<text x="330" y="86" font-size="13" fill="#0f172a" text-anchor="start">r=0: 3 from left        sum = 1+2+3 = 6</text>
+<rect x="30" y="140" width="48" height="40" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="54.0" y="165.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">1</text>
+<rect x="86" y="140" width="48" height="40" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="110.0" y="165.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">2</text>
+<rect x="142" y="140" width="48" height="40" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="166.0" y="165.0" text-anchor="middle" font-size="14" fill="#0f172a">3</text>
+<rect x="198" y="140" width="48" height="40" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="222.0" y="165.0" text-anchor="middle" font-size="14" fill="#0f172a">4</text>
+<rect x="254" y="140" width="48" height="40" rx="6" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+<text x="278.0" y="165.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">5</text>
+<text x="330" y="166" font-size="13" fill="#0f172a" text-anchor="start" font-weight="bold">r=1: 2 left + 1 right   sum = 1+2+5 = 8  ✔ best</text>
+<text x="30" y="230" font-size="12" fill="#b45309" text-anchor="start" font-weight="bold">slide: cur += cards[n-r] - cards[T-r]   (add a RIGHT card, drop the last LEFT card)</text>
+<text x="30" y="252" font-size="12" fill="#334155" text-anchor="start">blue = from left   yellow = from right   loop r = 0 .. min(R, T)   → O(T), no TLE</text>
+</svg>

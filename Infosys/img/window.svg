@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="290" viewBox="0 0 980 290" font-family="Menlo,Consolas,monospace">
+<rect width="980" height="290" fill="#ffffff"/>
+<text x="490.0" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">Sliding window: longest run with at most k=2 zeros</text>
+<rect x="30" y="50" width="38" height="36" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="49.0" y="73.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">1</text>
+<rect x="74" y="50" width="38" height="36" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="93.0" y="73.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">1</text>
+<rect x="118" y="50" width="38" height="36" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="137.0" y="73.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">1</text>
+<rect x="162" y="50" width="38" height="36" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="181.0" y="73.0" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="bold">0</text>
+<rect x="206" y="50" width="38" height="36" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="225.0" y="73.0" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="bold">0</text>
+<rect x="250" y="50" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="269.0" y="73.0" text-anchor="middle" font-size="14" fill="#dc2626">0</text>
+<rect x="294" y="50" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="313.0" y="73.0" text-anchor="middle" font-size="14" fill="#0f172a">1</text>
+<rect x="338" y="50" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="357.0" y="73.0" text-anchor="middle" font-size="14" fill="#0f172a">1</text>
+<rect x="382" y="50" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="401.0" y="73.0" text-anchor="middle" font-size="14" fill="#0f172a">1</text>
+<rect x="426" y="50" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="445.0" y="73.0" text-anchor="middle" font-size="14" fill="#0f172a">1</text>
+<rect x="470" y="50" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="489.0" y="73.0" text-anchor="middle" font-size="14" fill="#dc2626">0</text>
+<text x="49" y="102" text-anchor="middle" font-size="12" fill="#2563eb" font-weight="bold">l</text>
+<text x="225" y="102" text-anchor="middle" font-size="12" fill="#d97706" font-weight="bold">r</text>
+<text x="530" y="73" font-size="12" fill="#0f172a" text-anchor="start">r=4: window [0..4], zeros=2 ≤ k  → size 5</text>
+<rect x="30" y="120" width="38" height="36" rx="6" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+<text x="49.0" y="143.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">1</text>
+<rect x="74" y="120" width="38" height="36" rx="6" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+<text x="93.0" y="143.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">1</text>
+<rect x="118" y="120" width="38" height="36" rx="6" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+<text x="137.0" y="143.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">1</text>
+<rect x="162" y="120" width="38" height="36" rx="6" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+<text x="181.0" y="143.0" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="bold">0</text>
+<rect x="206" y="120" width="38" height="36" rx="6" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+<text x="225.0" y="143.0" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="bold">0</text>
+<rect x="250" y="120" width="38" height="36" rx="6" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+<text x="269.0" y="143.0" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="bold">0</text>
+<rect x="294" y="120" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="313.0" y="143.0" text-anchor="middle" font-size="14" fill="#0f172a">1</text>
+<rect x="338" y="120" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="357.0" y="143.0" text-anchor="middle" font-size="14" fill="#0f172a">1</text>
+<rect x="382" y="120" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="401.0" y="143.0" text-anchor="middle" font-size="14" fill="#0f172a">1</text>
+<rect x="426" y="120" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="445.0" y="143.0" text-anchor="middle" font-size="14" fill="#0f172a">1</text>
+<rect x="470" y="120" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="489.0" y="143.0" text-anchor="middle" font-size="14" fill="#dc2626">0</text>
+<text x="49" y="172" text-anchor="middle" font-size="12" fill="#2563eb" font-weight="bold">l</text>
+<text x="269" y="172" text-anchor="middle" font-size="12" fill="#d97706" font-weight="bold">r</text>
+<text x="530" y="143" font-size="12" fill="#0f172a" text-anchor="start">r=5: zeros=3 &gt; k  → BAD, move l</text>
+<rect x="30" y="190" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="49.0" y="213.0" text-anchor="middle" font-size="14" fill="#0f172a">1</text>
+<rect x="74" y="190" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="93.0" y="213.0" text-anchor="middle" font-size="14" fill="#0f172a">1</text>
+<rect x="118" y="190" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="137.0" y="213.0" text-anchor="middle" font-size="14" fill="#0f172a">1</text>
+<rect x="162" y="190" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="181.0" y="213.0" text-anchor="middle" font-size="14" fill="#dc2626">0</text>
+<rect x="206" y="190" width="38" height="36" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="225.0" y="213.0" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="bold">0</text>
+<rect x="250" y="190" width="38" height="36" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="269.0" y="213.0" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="bold">0</text>
+<rect x="294" y="190" width="38" height="36" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="313.0" y="213.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">1</text>
+<rect x="338" y="190" width="38" height="36" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="357.0" y="213.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">1</text>
+<rect x="382" y="190" width="38" height="36" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="401.0" y="213.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">1</text>
+<rect x="426" y="190" width="38" height="36" rx="6" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<text x="445.0" y="213.0" text-anchor="middle" font-size="14" fill="#0f172a" font-weight="bold">1</text>
+<rect x="470" y="190" width="38" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="489.0" y="213.0" text-anchor="middle" font-size="14" fill="#dc2626">0</text>
+<text x="225" y="242" text-anchor="middle" font-size="12" fill="#2563eb" font-weight="bold">l</text>
+<text x="445" y="242" text-anchor="middle" font-size="12" fill="#d97706" font-weight="bold">r</text>
+<text x="530" y="213" font-size="12" fill="#0f172a" text-anchor="start" font-weight="bold">shrunk to l=4 … grows to r=9, zeros=2 → size 6 ✔ best</text>
+<text x="30" y="270" font-size="12" fill="#b45309" text-anchor="start" font-weight="bold">r always moves right (+1). l only moves right when the window is BAD. Each index enters/leaves once → O(n).</text>
+</svg>

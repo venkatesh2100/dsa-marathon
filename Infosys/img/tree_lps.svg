@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="427" height="426" viewBox="0 0 427 426" font-family="Menlo,Consolas,monospace">
+<rect width="427" height="426" fill="#ffffff"/>
+<text x="213.5" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">LPS one mismatch  "abca"  → 4</text>
+<line x1="213.5" y1="266" x2="84.5" y2="312" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="133.51999999999998" y="298.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">drop l</text>
+<line x1="213.5" y1="266" x2="213.5" y2="312" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="213.5" y="298.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">drop r</text>
+<line x1="213.5" y1="266" x2="342.5" y2="312" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="293.48" y="298.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">b≠c +2</text>
+<line x1="213.5" y1="142" x2="213.5" y2="188" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="213.5" y="174.52" text-anchor="middle" font-size="11" fill="#b45309" stroke="#ffffff" stroke-width="4" paint-order="stroke" font-weight="bold">a=a +2</text>
+<circle cx="84.5" cy="351" r="39" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="84.5" y="348" text-anchor="middle" font-size="12" fill="#065f46">f(2,2,F)</text>
+<text x="84.5" y="365" text-anchor="middle" font-size="13" font-weight="bold" fill="#065f46">= 1</text>
+<circle cx="213.5" cy="351" r="39" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="213.5" y="348" text-anchor="middle" font-size="12" fill="#065f46">f(1,1,F)</text>
+<text x="213.5" y="365" text-anchor="middle" font-size="13" font-weight="bold" fill="#065f46">= 1</text>
+<circle cx="342.5" cy="351" r="39" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="342.5" y="348" text-anchor="middle" font-size="12" fill="#065f46">f(2,1,T)</text>
+<text x="342.5" y="365" text-anchor="middle" font-size="13" font-weight="bold" fill="#065f46">= 0</text>
+<circle cx="213.5" cy="227" r="39" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="213.5" y="224" text-anchor="middle" font-size="12" fill="#0f172a">f(1,2,F)</text>
+<text x="213.5" y="241" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">= 2</text>
+<circle cx="213.5" cy="103" r="39" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="213.5" y="100" text-anchor="middle" font-size="12" fill="#1e3a8a">f(0,3,F)</text>
+<text x="213.5" y="117" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">= 4</text>
+</svg>
